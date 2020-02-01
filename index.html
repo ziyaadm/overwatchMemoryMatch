@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+
+  <title>OverWatch Memory Match Game</title>
+
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="modal hidden">
+      <div class="modal-content">
+        <h1>You won!</h1>
+        <button class="resetButton">Reset Game</button>
+      </div>
+    </div>
+
+  <header class="header">
+    <img src="img/header.png" alt="" class="header">
+  </header>
+
+  <div class="flex-container">
+    <div class="statsContainer" id="font">
+      <div class="statsTitle"><u>STATS</u></div>
+      <div class="statsInfo">
+        <div class="played">Games</div>
+        <div class="playedNum">0</div>
+        <div class="attempts">Attempts</div>
+        <div class="attemptNum">0</div>
+        <div class="accuracy">Accuracy</div>
+        <div class="accuracyNum">0%</div>
+      </div>
+    </div>
+    <section class="memory-game">
+      <div class="memory-card" data-framework="junkrat">
+        <img class="front-face" src="img/junkrat.png" alt="React">
+        <img class="back-face" src="img/logo.gif" alt="Memory Card">
+      </div>
+      <div class="memory-card" data-framework="junkrat">
+        <img class="front-face" src="img/junkrat.png" alt="React">
+        <img class="back-face" src="img/logo.gif" alt="Memory Card">
+      </div>
+      <div class="memory-card" data-framework="lucio">
+        <img class="front-face" src="img/lucio.png" alt="React">
+        <img class="back-face" src="img/logo.gif" alt="Memory Card">
+      </div>
+      <div class="memory-card" data-framework="lucio">
+        <img class="front-face" src="img/lucio.png" alt="React">
+        <img class="back-face" src="img/logo.gif" alt="Memory Card">
+      </div>
+      <div class="memory-card" data-framework="mei">
+        <img class="front-face" src="img/mei.png" alt="React">
+        <img class="back-face" src="img/logo.gif" alt="Memory Card">
+      </div>
+      <div class="memory-card" data-framework="mei">
+        <img class="front-face" src="img/mei.png" alt="React">
+        <img class="back-face" src="img/logo.gif" alt="Memory Card">
+      </div>
+      <div class="memory-card" data-framework="tracer">
+        <img class="front-face" src="img/tracer.png" alt="React">
+        <img class="back-face" src="img/logo.gif" alt="Memory Card">
+      </div>
+
+      <div class="memory-card" data-framework="tracer">
+        <img class="front-face" src="img/tracer.png" alt="React">
+        <img class="back-face" src="img/logo.gif" alt="Memory Card">
+      </div>
+
+      <div class="memory-card" data-framework="dva">
+        <img class="front-face" src="img/dva.png" alt="Angular">
+        <img class="back-face" src="img/logo.gif" alt="Memory Card">
+      </div>
+
+      <div class="memory-card" data-framework="dva">
+        <img class="front-face" src="img/dva.png" alt="Angular">
+        <img class="back-face" src="img/logo.gif" alt="Memory Card">
+      </div>
+
+      <div class="memory-card" data-framework="genji">
+        <img class="front-face" src="img/genji.png" alt="Ember">
+        <img class="back-face" src="img/logo.gif" alt="Memory Card">
+      </div>
+
+      <div class="memory-card" data-framework="genji">
+        <img class="front-face" src="img/genji.png" alt="Ember">
+        <img class="back-face" src="img/logo.gif" alt="Memory Card">
+      </div>
+
+      <div class="memory-card" data-framework="reinhardt">
+        <img class="front-face" src="img/reinhardt.png" alt="Vue">
+        <img class="back-face" src="img/logo.gif" alt="Memory Card">
+      </div>
+
+      <div class="memory-card" data-framework="reinhardt">
+        <img class="front-face" src="img/reinhardt.png" alt="Vue">
+        <img class="back-face" src="img/logo.gif" alt="Memory Card">
+      </div>
+
+      <div class="memory-card" data-framework="roadhog">
+        <img class="front-face" src="img/roadhog.png" alt="Backbone">
+        <img class="back-face" src="img/logo.gif" alt="Memory Card">
+      </div>
+
+      <div class="memory-card" data-framework="roadhog">
+        <img class="front-face" src="img/roadhog.png" alt="Backbone">
+        <img class="back-face" src="img/logo.gif" alt="Memory Card">
+      </div>
+
+      <div class="memory-card" data-framework="mercy">
+        <img class="front-face" src="img/mercy.png" alt="Aurelia">
+        <img class="back-face" src="img/logo.gif" alt="Memory Card">
+      </div>
+
+      <div class="memory-card" data-framework="mercy">
+        <img class="front-face" src="img/mercy.png" alt="Aurelia">
+        <img class="back-face" src="img/logo.gif" alt="Memory Card">
+      </div>
+    </section>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
